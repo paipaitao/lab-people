@@ -87,6 +87,7 @@ public class PersonController {
             person2.get().setLastName(person.getLastName());
             person2.get().setOffice(person.getOffice());
             person2.get().setSalary(person.getSalary());
+            person2.get().setHiringDate(person.getHiringDate());
 
             return personService.update(person2.get());
 
